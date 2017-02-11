@@ -1,8 +1,19 @@
 html
   head
-    title= title
+    meta(charset="UTF-8")
+    title= name
     link(rel="stylesheet", href="main.css")
   body
     .container
-      .divider
-      != contents
+      .column
+        h1.heading= name
+        h2.subheading= location
+        section.about!= about
+        section.experience!= experience
+        section.education!= education
+      .column
+        img(src="profile.png")
+        section.details!= details
+        section.languages!= languages
+        section.skills!= skills
+        footer.copyright!= "&copy; " + name + " 2017"

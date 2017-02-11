@@ -1,6 +1,6 @@
 const Metalsmith = require("metalsmith");
 const layouts = require("metalsmith-layouts");
-const markdown = require("metalsmith-markdown");
+const markdown = require("metalsmith-markdown-sections");
 const pdf = require("metalsmith-pdf");
 const sass = require("metalsmith-sass");
 

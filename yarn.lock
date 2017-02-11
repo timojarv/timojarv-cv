@@ -873,6 +873,13 @@ metalsmith-layouts@^1.8.0:
     lodash.omit "^4.0.2"
     multimatch "^2.0.0"
 
+metalsmith-markdown-sections@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/metalsmith-markdown-sections/-/metalsmith-markdown-sections-0.3.0.tgz#95be5f8536f3b9e599f7ad9bea6abde6cdbe76e6"
+  dependencies:
+    debug "~0.7.4"
+    marked "~0.3.1"
+
 metalsmith-markdown@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/metalsmith-markdown/-/metalsmith-markdown-0.2.1.tgz#1a1feeb6c76d15407b75271da81509d07932d753"
