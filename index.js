@@ -15,7 +15,7 @@ Metalsmith(__dirname)
     .use(sass())
     .use(pdf({
         pattern: "**/*.html",
-        printMediaType: true,
+        //printMediaType: true,
         pageSize: "A4"
     }))
     .build(err => {
