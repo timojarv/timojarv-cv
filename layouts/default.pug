@@ -4,15 +4,15 @@ html
     title= name
     link(rel="stylesheet", href="main.css")
   body
-    h1.heading= name
-    h2.subheading= location
     .container
       .column
+        h1.heading= name
+        h2.subheading= location
         section.about!= about
         section.experience!= experience
         section.education!= education
       .column
-        //img(src="profile.png")
+        img(src="profile.png")
         section.details!= details
         section.languages!= languages
         section.skills!= skills
