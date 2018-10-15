@@ -16,7 +16,8 @@ Metalsmith(__dirname)
     .use(pdf({
         pattern: "**/*.html",
         //printMediaType: true,
-        pageSize: "A4"
+        pageSize: "A4",
+        disableSmartShrinking: true
     }))
     .build(err => {
         if(err) throw err;
